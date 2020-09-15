@@ -11,7 +11,7 @@ public class Identyfier {
     public static void main(String[] args){
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
-        Mat colorfulImage = imread("src\\pessoas\\muai.jpg");
+        Mat colorfulImage = imread("src\\pessoas\\beatles.jpg");
         Mat grayImage = new Mat();
 
         Imgproc.cvtColor(colorfulImage, grayImage, COLOR_BGR2GRAY);
